@@ -20,7 +20,7 @@ function block(cssModule, name, elementParam, modsParam, statesParam) {
     let result = cssModule[baseBlock];
 
     if (isDev) {
-        if (!result) {
+        if (!result && !mods) {
             const message = `There is no ${name}__${element} in cssModule`;
 
             if (settings.throwOnError) {
