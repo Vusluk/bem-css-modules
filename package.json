@@ -34,7 +34,7 @@
     "lint": "eslint src",
     "precommit": "npm run lint && npm test && npm run types",
     "prepush": "npm run lint && npm test && npm run types",
-    "prepare": "npm run lint && npm test && npm run types && npm run build",
+    "prepare": "npm run build",
     "test": "jest --no-cache --config jest.json"
   },
   "devDependencies": {
