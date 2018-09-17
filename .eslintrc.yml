@@ -64,7 +64,7 @@ rules:
   - never
   indent:
   - error
-  - 4
+  - 2
   - SwitchCase: 1
   comma-dangle:
   - error
