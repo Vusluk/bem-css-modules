@@ -1,4 +1,4 @@
-import bem from 'bem-css-modules';
+import bem from '../src/bem-css-modules.js';
 
 
 const mockCSSModule = {
