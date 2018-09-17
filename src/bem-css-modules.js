@@ -17,7 +17,7 @@ function block(cssModule, name, elementParam, modsParam, statesParam) {
     const element = isElementAsModes ? '' : elementParam;
 
     const baseBlock = element ? `${name}__${element}` : name;
-    let result = cssModule[baseBlock];
+    let result = cssModule[baseBlock] || '';
 
     if (isDev) {
         if (!result && !mods) {
